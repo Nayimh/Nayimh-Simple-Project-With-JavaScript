@@ -1,7 +1,9 @@
+/* common */
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
+/* search section */
 .search-field {
   border: none;
   border-radius: 50px;
@@ -30,7 +32,7 @@ body {
   /* background: linear-gradient(#051937, #A8EB12); */
 }
 
-
+/* card section */
 #all-products {
   display: grid;
   
@@ -70,6 +72,7 @@ body {
 .cart-main {
   padding-right: 30px;
 }
+/* media query for big screen */
 @media only screen and (max-width: 768px) {
   #all-products {
     display: grid;
@@ -88,6 +91,7 @@ body {
     padding-right: 10px;
   }
 }
+/* media query for small screen */
 @media only screen and (max-width: 468px) {
   #all-products {
     display: grid;

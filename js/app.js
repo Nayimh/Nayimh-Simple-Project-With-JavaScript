@@ -1,10 +1,12 @@
 // load api
 const loadProducts = () => {
+ // fetch section
   const url = `https://fakestoreapi.com/products`;
   fetch(url)
     .then((response) => response.json())
     .then((data) => showProducts(data));
 };
+// call function
 loadProducts();
 
 // show all product in UI 
@@ -40,7 +42,7 @@ const addToCart = (id, price) => {
   // update total price
   updateTotal();
 };
-
+// input section
 const getInputValue = (id) => {
   const element = document.getElementById(id).innerText;
   // const converted = parseInt(element);
