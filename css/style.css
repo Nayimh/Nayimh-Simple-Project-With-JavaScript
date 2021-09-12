@@ -52,7 +52,7 @@ body {
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
-  border: 1px solid cyan;
+  border: 1px solid rgba(0, 128, 0, 0.705);
 }
 .product-image {
   width: 150px;
