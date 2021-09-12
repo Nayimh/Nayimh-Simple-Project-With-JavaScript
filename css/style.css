@@ -16,14 +16,18 @@ body {
   border: 1px solid rgb(3, 118, 211);
   width: 281px;
   border-radius: 5px;
+  box-shadow: 4px 4px 7px gray;
   margin: auto;
   margin-top: 50px;
   border-right: none;
 }
+
 .search-button {
   padding: 10px 50px;
   border-radius: 25px;
-  margin-left: 20px;
+  margin-left: 25px;
+  box-shadow: 4px 4px 7px gray;
+  /* background: linear-gradient(#051937, #A8EB12); */
 }
 #all-products {
   display: grid;
